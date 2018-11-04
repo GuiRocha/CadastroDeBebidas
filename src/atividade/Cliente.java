@@ -1,13 +1,13 @@
 package atividade;
 
 
-public class cliente {
+public class Cliente {
 
     public String nome;
     public int preco;
     public  String codigo;
     public String marca;
-    public int Codigobarra;
+    public int codigobarra;
     public String Data;
 
     public String getNome() {
@@ -36,10 +36,10 @@ public class cliente {
         this.marca = marca;
     }
     public int getCodigobarra() {
-        return Codigobarra;
+        return codigobarra;
     }
     public void setCodigobarra(int codigobarra) {
-        Codigobarra = codigobarra;
+        this.codigobarra = codigobarra;
     }
     public String getData() {
         return Data;

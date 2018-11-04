@@ -15,9 +15,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="mysql-connector-java-5.1.41-bin.jar">
+      <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-5.1.41-bin.jar" />
+          <root url="jar://$MODULE_DIR$/mysql-connector-java-5.1.47.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
