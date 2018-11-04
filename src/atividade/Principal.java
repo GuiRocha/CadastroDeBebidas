@@ -24,9 +24,9 @@ public class Principal {
             System.out.println("===================== MENU PRINCIPAL =======================");
             System.out.println("1 - Cadastrar Bebidas");
             System.out.println("2 - Mostrar bebidas cadastradas");
-            System.out.println("3 - Pesquisar Cadastro de bebidas Específica");
-            System.out.println("4 - Excluir Cadastro de bebida Específica");
-            System.out.println("5 - Alterar Cadastro de bebida Específica");
+            System.out.println("3 - Pesquisar Cadastro de bebidas EspecÃ­fica");
+            System.out.println("4 - Excluir Cadastro de bebida EspecÃ­fica");
+            System.out.println("5 - Alterar Cadastro de bebida EspecÃ­fica");
             System.out.println("6 - Sair");
             opcaoMenuPrincipal = leitor.nextInt();
             switch (opcaoMenuPrincipal) {
@@ -36,13 +36,13 @@ public class Principal {
                     System.out.println("========= CADASTRAR bebidas ============");
                     System.out.println("Digite o nome da bebida:");
                     cliente.nome = leitor.next();
-                    System.out.println("Digite o preço");
+                    System.out.println("Digite o preÃ§o");
                     cliente.preco = leitor.nextInt();
                     System.out.println("Digite a marca da bebida:");
                     cliente.marca = leitor.next();
-                    System.out.println("Digite o código da bebida:");
+                    System.out.println("Digite o cÃ³digo da bebida:");
                     cliente.codigo = leitor.next();
-                    System.out.println("Digite o código de barra da bebida:");
+                    System.out.println("Digite o cÃ³digo de barra da bebida:");
                     cliente.codigobarra = leitor.nextInt();
                     System.out.println("Digite a data de vencimento");
                     cliente.Data = leitor.next();
@@ -76,19 +76,19 @@ public class Principal {
                     do {
                         System.out.println("CADASTRO REALIZADO!");
 
-                        System.out.println("Deseja cadastrar mais alguma bebida? Digite 1, SE NÃO DIGITE 2");
+                        System.out.println("Deseja cadastrar mais alguma bebida? Digite 1, SE NÃƒO DIGITE 2");
                         opcaoContinuar = leitor.nextInt();
                         if (opcaoContinuar == 1) {
                             System.out.println("========= CADASTRAR bebidas ============");
                             System.out.println("Digite o nome da bebida:");
                             cliente.nome = leitor.next();
-                            System.out.println("Digite o preço da bebida");
+                            System.out.println("Digite o preÃ§o da bebida");
                             cliente.preco = leitor.nextInt();
                             System.out.println("Digite a marca");
                             cliente.marca = leitor.next();
-                            System.out.println("Digite o código da bebida:");
+                            System.out.println("Digite o cÃ³digo da bebida:");
                             cliente.codigo = leitor.next();
-                            System.out.println("Digite o código de barra da bebida:");
+                            System.out.println("Digite o cÃ³digo de barra da bebida:");
                             cliente.codigobarra = leitor.nextInt();
                             System.out.println("Digite a data de validade");
                             cliente.Data = leitor.next();
@@ -152,8 +152,8 @@ public class Principal {
 
                         for (i = 0; i < clientes.size(); i++) {
                             System.out.println("Nome: " + clientes.get(i).getNome());
-                            System.out.println("Preço: " + clientes.get(i).getPreco());
-                            System.out.println("Código: " + clientes.get(i).getCodigo());
+                            System.out.println("PreÃ§o: " + clientes.get(i).getPreco());
+                            System.out.println("CÃ³digo: " + clientes.get(i).getCodigo());
                             System.out.println("Marca: " + clientes.get(i).getMarca());
                             System.out.println("Codigo de barra: " + clientes.get(i).getCodigobarra());
                             System.out.println("Data de vencimento: " + clientes.get(i).getData());
@@ -194,10 +194,10 @@ public class Principal {
 
                         for (i = 0; i < clientes.size(); i++) {
                             System.out.println("Nome: " + clientes.get(i).getNome());
-                            System.out.println("preço: " + clientes.get(i).getPreco());
-                            System.out.println("código: " + clientes.get(i).getCodigo());
+                            System.out.println("preÃ§o: " + clientes.get(i).getPreco());
+                            System.out.println("cÃ³digo: " + clientes.get(i).getCodigo());
                             System.out.println("Marca: " + clientes.get(i).getMarca());
-                            System.out.println("Código de barra: " + clientes.get(i).getCodigobarra());
+                            System.out.println("CÃ³digo de barra: " + clientes.get(i).getCodigobarra());
                             System.out.println("Data de vencimento: " + clientes.get(i).getData());
 
                             System.out.println("============================================");
@@ -240,7 +240,7 @@ public class Principal {
                     System.out.println("========= ALTERAR bebida============");
                     try {
                         String alterar;
-                        String nome = "João";
+                        String nome = "JoÃ£o";
                         String idade = "25";
                         String telefone = "19181383";
                         String sexo = "M";

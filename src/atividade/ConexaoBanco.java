@@ -16,7 +16,7 @@ public class ConexaoBanco {
             System.out.println("Banco de dados conectado com sucesso");
         } catch (SQLException e) {
 
-            System.out.println("N„o foi possivel a conex„o com o banco de dados");
+            System.out.println("N√£o foi possivel a conex√£o com o banco de dados");
 
             e.printStackTrace();
         }
